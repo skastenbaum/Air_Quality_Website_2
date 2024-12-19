@@ -1,0 +1,123 @@
+style>
+        body {
+            font-family: font-family: "Garamond", serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full height of the viewport */
+            margin: 0 auto;
+            width: 80%;
+            background-color: #d2dfe6;
+            padding: 40px;
+        }
+
+        .headlines {
+            background-color: #d2dfe6;
+            text-align: center;  
+            padding-left: 80px;
+            padding-right:80px;
+        }
+
+        h1, h2 {
+            background-color: #d2dfe6;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 2.4em;
+            color: #333;
+            padding-top: 20px;  
+            padding-right: 40px;
+            padding-left: 40px;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.4em;
+            color: #333;  /* Matching text color to story */
+            padding-top: 10px;
+            padding-right: 40px;  
+            padding-left: 40px;
+            padding-bottom: 20px;       
+        }
+
+        .image-container {
+            display: block;
+            text-align: center;
+        }
+
+        figure {
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            margin: 0; /* Remove default margin around figure */
+            padding: 0; /* Remove default padding */
+            height: 100%; /* Allow figure to stretch to its container height */
+        }
+
+        img {
+            max-width: 100%; /* Ensures image fits within the container on smaller screens */
+            height: auto;    /* Maintains aspect ratio */
+        }
+
+        figcaption {
+            text-align: center; /* Center the caption text */
+            margin-top: 10px; /* Add space between the image and caption */
+            font-size: 20px; /* Set a reasonable font size */
+            font-style: italic;
+            color: #666; /* Lighter color for the caption */
+        }
+
+        .byline {
+            font-size: 1.2em;  /* Matched font size to story text */
+            color: #333;  /* Matched text color to story */
+            padding-left: 220px;  
+            padding-right: 220px; 
+            margin-top: 30px;  /* Removed additional margins */
+            margin-bottom: 0;
+        }
+
+        .dateline {
+            font-size: 1.2em;  /* Matched font size to story text */
+            color: #333;  /* Matched text color to story */
+            padding-left: 220px;  
+            padding-right: 220px; 
+            margin-top: 0;  /* Removed additional margins */
+            margin-bottom: 0;
+        }
+
+        .story {
+            margin-top: 30px;
+            font-size: 1.2em;
+            color: #333;  /* Matched text color */
+            padding-left: 220px; 
+            padding-right: 220px; 
+            padding-bottom: 140px;
+        }
+        .hyperlinks a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .hyperlinks a:hover {
+            text-decoration: underline;
+        }
+        .maps {
+            margin-top: 30px;
+        }
+        .map-container {
+            padding-left: 80px;  /* Added 40px padding around the maps */
+            padding-right: 80px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .maps iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+    </style>
